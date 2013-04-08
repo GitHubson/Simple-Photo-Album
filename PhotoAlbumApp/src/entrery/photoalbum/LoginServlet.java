@@ -19,6 +19,7 @@ public class LoginServlet extends HttpServlet {
     
 	public LoginServlet() {
         super();
+        System.out.println("A new login servler was born!");
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
