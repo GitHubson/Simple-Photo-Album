@@ -52,5 +52,4 @@ public class CommandExecutorServlet extends HttpServlet {
 	private void forwardToMainPage(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.sendRedirect("PhotoAlbum.jsp?categoryPath=" + request.getParameter("categoryPath"));
 	}
-
 }
